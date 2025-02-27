@@ -1,0 +1,111 @@
+.join-container {
+  background-image: url("../../assets/join.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.genuine-top-right {
+  position: relative;
+  text-align: end;
+  top: 30px;
+  right: 30px;
+}
+.genuine-top-right img {
+  width: 200px;
+  height: auto;
+  border-radius: 50px;
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+.join-card {
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.join-header {
+  background: linear-gradient(to bottom, #7cb7e1, #a68dde);
+  color: #100669;
+  padding: 20px;
+  text-align: center;
+}
+
+.join-header h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.join-content {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  color: #100669;
+  width: 100%;
+}
+
+.join-content p b {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.join-content .icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.join-content .icons a {
+  margin: 0 20px;
+}
+
+.join-bottom-link {
+  text-align: center;
+}
+
+.join-bottom-link a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .join-container {
+    padding: 10px;
+  }
+  .genuine-top-right img {
+    width: 300px;
+  }
+  .genuine-top-right img {
+    width: 100px;
+    height: auto;
+  }
+
+  .join-card {
+    width: 90%;
+    height: auto;
+  }
+  .join-header h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .join-content p b {
+    font-size: 1rem;
+  }
+  .join-content .icons a {
+    margin: 0 5%;
+  }
+}
